@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie d'Images - KB2</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Galerie d'Images - Exploration de balises</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <!-- Liste pour les éléments de gauche -->
+            <li><a href="http://167.114.152.54/~darquest1/prod/">Le Darquest</a></li>
+            <li><a href="wow.html">Wow</a></li>
+            <li><a href="fallout.html">Fallout</a></li>
+            <li><a href="http://167.114.152.54/~knapsak3/">Knapsak</a></li>
+
+            <!-- Liste pour les éléments de droite -->
+            <li><a href="https://clg.qc.ca/colnet/">Mon Cégep</a></li>
+            <li><a href="kb2.html">KB2</a></li>
+            <li><a href="https://damalary.github.io/TP1/">Mon TP1</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="gallery">
+           
+            <div class="gallery-item">
+                <h2>Opacité d'une Image</h2>
+                <p>En jouant avec l'opacité, l'image devient plus ou moins transparente.</p>
+                <img src="images/images.jpg" alt="Image 1">
+            </div>
+
+            <div class="gallery-item">
+                <h2>Bordures Arrondies</h2>
+                <p>Les images peuvent être stylisées avec des bordures arrondies pour un effet plus doux.</p>
+                <img src="images/images.jpg" alt="Image 2" class="rounded">
+            </div>
+
+            <div class="gallery-item transform-hover">
+                <h2>Effet Hover</h2>
+                <p>Un effet de transformation sur l'image au passage de la souris.</p>
+                <img src="images/images.jpg" alt="Image 3">
+            </div>
+
+            <div class="gallery-item gradient-background">
+                <h2>Image de Fond avec Dégradé</h2>
+                <p>Une image de fond avec un dégradé pour ajouter de la profondeur.</p>
+                <div class="gradient-background">
+                    <img src="images/images.jpg" alt="Image 4">
+                </div>
+            </div>
+        </section>
+
+        <section class="explanation">
+            <h2>Explication des Effets</h2>
+            <p>Dans cette page, vous pouvez voir des effets stylisés pour les images :</p>
+            <ul>
+                <li><strong>Opacité :</strong> J'ai appliqué l'opacité pour rendre l'image transparente au passage de la souris.</li>
+                <li><strong>Bordures Arrondies :</strong> Les bordures des images sont arrondies pour un effet plus esthétique.</li>
+                <li><strong>Effet Hover :</strong> En utilisant la pseudo-classe <code>:hover</code>, l'image grandit légèrement lorsque vous survolez avec la souris.</li>
+                <li><strong>Dégradé de Couleur :</strong> Un fond de dégradé a été appliqué derrière certaines images pour ajouter un effet de profondeur et de fluidité.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        Réalisé par Damien Alary 2024
+    </footer>
+</body>
+</html>
